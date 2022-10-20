@@ -3,7 +3,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .yazi2 {
-    font-size: 64px;
-  }
+@keyframes disko {
+  0% { color: #fc0303 }
+  17% { color: #45f52a }
+  34% { color: #2a7bf5 }
+  51% { color: #2af5e4 }
+  68% { color: #c92af5 }
+  85% { color: #f5dd2a }
+  100% { color: #66655d }
+}
+ 
+.isiklimisikli {
+  animation-name: disko;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  font-size: 64px;
+}
